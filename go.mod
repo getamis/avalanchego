@@ -200,3 +200,14 @@ require (
 )
 
 tool github.com/onsi/ginkgo/v2/ginkgo
+
+replace (
+	// v0.16.0-rc.001 is not a valid go mod version, so we need to replace it
+	// with a valid version v0.0.0-20251106061404-3f57cc523be7, which is presenting
+	// https://github.com/getamis/coreth/commit/3f57cc523be76a0aba60e969281a1415fcf2f0b1
+	github.com/ava-labs/coreth => github.com/getamis/coreth v0.0.0-20251106061404-3f57cc523be7
+	// libevm-1bccf4f is not a valid go mod version, so we need to replace it
+	// with a valid version v1.7.4-0.20251106032031-434785186c03, which is presenting
+	// https://github.com/getamis/go-ethereum/tree/libevm-1bccf4f
+	github.com/ava-labs/libevm => github.com/getamis/go-ethereum v1.7.4-0.20251106032031-434785186c03
+)

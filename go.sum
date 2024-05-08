@@ -71,12 +71,8 @@ github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da/go.mod h1:Q73ZrmV
 github.com/armon/go-radix v0.0.0-20180808171621-7fddfc383310/go.mod h1:ufUuZ+zHj4x4TnLV4JWEpy2hxWSpsRywHrMgIH9cCH8=
 github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5 h1:0CwZNZbxp69SHPdPJAN/hZIm0C4OItdklCFmMRWYpio=
 github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5/go.mod h1:wHh0iHkYZB8zMSxRWpUBQtwG5a7fFgvEO+odwuTv2gs=
-github.com/ava-labs/coreth v0.16.0-rc.0 h1:nPvkDbxaH8N9f/wQe7B+IGMhPISMuW5CU0cDYuU8iCw=
-github.com/ava-labs/coreth v0.16.0-rc.0/go.mod h1:uGr1C7BP0+dWhvsIouhuH0yCyI8YDgS6sfEFIExs0iI=
 github.com/ava-labs/firewood-go-ethhash/ffi v0.0.13 h1:obPwnVCkF5+B2f8WbTepHj0ZgiW21vKUgFCtATuAYNY=
 github.com/ava-labs/firewood-go-ethhash/ffi v0.0.13/go.mod h1:gsGr1ICjokI9CyPaaRHMqDoDCaT1VguC/IyOTx6rJ14=
-github.com/ava-labs/libevm v1.13.15-0.20251016142715-1bccf4f2ddb2 h1:hQ15IJxY7WOKqeJqCXawsiXh0NZTzmoQOemkWHz7rr4=
-github.com/ava-labs/libevm v1.13.15-0.20251016142715-1bccf4f2ddb2/go.mod h1:DqSotSn4Dx/UJV+d3svfW8raR+cH7+Ohl9BpsQ5HlGU=
 github.com/ava-labs/simplex v0.0.0-20250919142550-9cdfff10fd19 h1:S6oFasZsplNmw8B2S8cMJQMa62nT5ZKGzZRdCpd+5qQ=
 github.com/ava-labs/simplex v0.0.0-20250919142550-9cdfff10fd19/go.mod h1:GVzumIo3zR23/qGRN2AdnVkIPHcKMq/D89EGWZfMGQ0=
 github.com/ava-labs/subnet-evm v0.8.0-fuji-rc.0.0.20251028200304-b91527f73c61 h1:9wIpv0Sw/LsGSFqvszIpWFacHXrj2ezMrUG/WLCYKaw=
@@ -228,6 +224,10 @@ github.com/gballet/go-libpcsclite v0.0.0-20191108122812-4678299bea08 h1:f6D9Hr8x
 github.com/gballet/go-libpcsclite v0.0.0-20191108122812-4678299bea08/go.mod h1:x7DCsMOv1taUwEWCzT4cmDeAkigA5/QCwUodaVOe8Ww=
 github.com/gballet/go-verkle v0.1.1-0.20231031103413-a67434b50f46 h1:BAIP2GihuqhwdILrV+7GJel5lyPV3u1+PgzrWLc0TkE=
 github.com/gballet/go-verkle v0.1.1-0.20231031103413-a67434b50f46/go.mod h1:QNpY22eby74jVhqH4WhDLDwxc/vqsern6pW+u2kbkpc=
+github.com/getamis/coreth v0.0.0-20251106061404-3f57cc523be7 h1:Gb7PglvNfYB5TwjoGuicH3RwAN41GRxDPhrT8f/as3I=
+github.com/getamis/coreth v0.0.0-20251106061404-3f57cc523be7/go.mod h1:AkB1ELQ4+iL4wrtciQNzqQyfXhCVvP+f3RZ6LD+t244=
+github.com/getamis/go-ethereum v1.7.4-0.20251106032031-434785186c03 h1:KnmcEkdCSt6tiH7qrMB4V4Ph2Lox+h660ja11tnb/7U=
+github.com/getamis/go-ethereum v1.7.4-0.20251106032031-434785186c03/go.mod h1:DqSotSn4Dx/UJV+d3svfW8raR+cH7+Ohl9BpsQ5HlGU=
 github.com/getsentry/sentry-go v0.12.0/go.mod h1:NSap0JBYWzHND8oMbyi0+XZhUalc1TBdRL1M71JZW2c=
 github.com/getsentry/sentry-go v0.35.0 h1:+FJNlnjJsZMG3g0/rmmP7GiKjQoUF5EXfEtBwtPtkzY=
 github.com/getsentry/sentry-go v0.35.0/go.mod h1:C55omcY9ChRQIUcVcGcs+Zdy4ZpQGvNJ7JYHIoSWOtE=
