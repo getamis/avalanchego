@@ -4,7 +4,7 @@ ARG GO_VERSION
 
 # ============= Compilation Stage ================
 # Always use the native platform to ensure fast builds
-FROM --platform=$BUILDPLATFORM golang:$GO_VERSION-bullseye AS builder
+FROM golang:1.22.8-bullseye AS builder
 
 WORKDIR /build
 

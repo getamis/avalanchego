@@ -1,0 +1,13 @@
+language: go
+go_import_path: github.com/ava-labs/avalanchego
+dist: jammy
+jobs:
+  include:
+    - stage: build
+      script:
+        - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin quay.io/amis
+        - docker --version
+        - make docker
+        - make docker.push
+      if: tag =~ ^v([0-9]+.)+[0-9]+
+      env: DOCKER_IMAGE_TAG="$TRAVIS_TAG"
