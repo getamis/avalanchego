@@ -196,3 +196,8 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
+
+// v0.15.0-rc.000 is not a valid go mod version, so we need to replace it
+// with a valid version v0.0.0-20250327033820-b29fedba5e9e, which is presenting
+// https://github.com/getamis/coreth/commit/b29fedba5e9e2d1d9ec2247316b053dad310cf03
+replace github.com/ava-labs/coreth v0.15.0-rc.0 => github.com/getamis/coreth v0.0.0-20250327033820-b29fedba5e9e
