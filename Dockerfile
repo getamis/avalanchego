@@ -4,7 +4,7 @@ ARG GO_VERSION=INVALID # This value is not intended to be used but silences a wa
 
 # ============= Compilation Stage ================
 # Always use the native platform to ensure fast builds
-FROM --platform=$BUILDPLATFORM golang:$GO_VERSION-bookworm AS builder
+FROM golang:1.23.6-bookworm AS builder
 
 WORKDIR /build
 
