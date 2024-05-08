@@ -194,3 +194,5 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
+
+replace github.com/ava-labs/coreth v0.14.1-rc.2 => github.com/getamis/coreth v0.14.1-rc.200
