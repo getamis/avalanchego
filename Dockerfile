@@ -6,7 +6,7 @@
 # go.mod
 # ============= Compilation Stage ================
 # Always use the native platform to ensure fast builds
-FROM --platform=$BUILDPLATFORM golang:1.21.9-bullseye AS builder
+FROM golang:1.21.9-bullseye AS builder
 
 WORKDIR /build
 
