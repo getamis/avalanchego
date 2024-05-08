@@ -209,3 +209,8 @@ require (
 )
 
 tool github.com/onsi/ginkgo/v2/ginkgo
+
+replace (
+	github.com/ava-labs/coreth => github.com/getamis/coreth v0.15.4-rc.400
+	github.com/ava-labs/libevm => github.com/getamis/go-ethereum v1.7.4-0.20251027063005-e2dc53f43d7f
+)
