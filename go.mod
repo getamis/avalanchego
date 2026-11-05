@@ -4,7 +4,7 @@ module github.com/ava-labs/avalanchego
 // CONTRIBUTING.md
 // README.md
 // go.mod (here)
-go 1.21.9
+go 1.24
 
 require (
 	github.com/DataDog/zstd v1.5.2
@@ -112,7 +112,7 @@ require (
 	github.com/holiman/bloomfilter/v2 v2.0.3 // indirect
 	github.com/holiman/uint256 v1.2.3 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
-	github.com/klauspost/compress v1.15.15 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/kr/text v0.2.0 // indirect
 	github.com/magiconair/properties v1.8.6 // indirect
